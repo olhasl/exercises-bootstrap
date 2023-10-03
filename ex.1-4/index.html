@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!--I - blocs positioning-->
+    <div class="container-fluid bg-info text-center text-dark mx-2 border">
+        <p>12 colonnes</p>
+        <div class="row justify-content-around">
+        <div class="col-sm-2 border">
+            <p>Coucou</p>
+        </div>
+        <div class="col-sm-2 border">
+            <p>ça</p>
+        </div>
+        <div class="col-sm-2 border">
+            <p>va ?</p>
+        </div>
+        </div>
+      </div>
+      <br>
+    <!--II - imbricated elements-->
+    <!--Use https://www.w3schools.com/bootstrap5/bootstrap_grid_examples.php-->
+    <div class="container-fluid bg-info text-center text-dark px-3 mx-2 border">
+        <div class="row">
+            <div class="col-sm-4 border">
+            <p>Nouvel</p>
+            </div>
+        <div class="col-sm-8 border">
+            <p>Exercice</p>
+            <div class="row">
+                <div class="col-sm-3 border mr-0 pr-0">ces</div>
+                <div class="col-sm-6 border mr-0 pr-0">blocs sont tous</div>
+                <div class="col-sm-3 border mr-0 pr-0">dans</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 border mr-0 pr-0">la même</div>
+                <div class="col-sm-4 border mr-0 pr-0">div où est</div>
+                <div class="col-sm-4 border mr-0 pr-0">inscrit <b>"Exercice".</b></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 border mr-0 pr-0">comment</div>
+                <div class="col-sm-2 border mr-0 pr-0">est</div>
+                <div class="col-sm-5 border mr-0 pr-0">ce possible?</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <br>
+    <!--III - change elements order-->
+    <!--Use https://getbootstrap.com/docs/5.3/layout/columns/-->
+    <div class="container-fluid bg-info text-center text-dark px-3 mx-2 border">
+        <p>12 colonnes</p>
+        <div class="row justify-content-around">
+        <div class="col-sm-2 border order-1">
+            <p>Bloc 1 de 3</p>
+        </div>
+        <div class="col-sm-2 border order-3">
+            <p>Bloc 2 de 3</p>
+        </div>
+        <div class="col-sm-2 border order-2">
+            <p>Bloc 3 de 3</p>
+        </div>
+        </div>
+    </div>
+    <br>
+    <!--IV - practice makes good-->
+    <div class="container-fluid bg-info text-center text-dark px-3 mx-2 border">
+        <div class="row">
+            <div class="col-sm-6 border">
+                <p>6 colonnes</p>
+                <div class="row text-center">
+                    <div class="col-sm-4 text-center border">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-sm-4 text-center border offset-sm-4">
+                        <p>4 colonnes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 border">
+                <p>6 colonnes</p>
+                <div class="row text-center">
+                    <div class="col-sm-4 text-center border">
+                        <p>4 colonnes</p>
+                    </div>
+                    <div class="col-sm-8 text-center border">
+                        <p>8 colonnes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
